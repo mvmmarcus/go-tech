@@ -82,8 +82,27 @@ button:focus {
   list-style: none;
 }
 
+.menu-list__item {
+  position: relative;
+}
+
 .menu-list__item a {
   color: #000;
+}
+
+.circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: #6362d7;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.menu-list__item a.selected {
+  color: #6362d7;
+  border-bottom: 1px solid #6362d7;
 }
 
 .menu-list__item a:hover {
@@ -1097,8 +1116,8 @@ select {
     text-align: center;
   }
 
-  .contact__item .item-container{
-      justify-content: center;
+  .contact__item .item-container {
+    justify-content: center;
   }
 }
 
