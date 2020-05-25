@@ -34,9 +34,8 @@ button:focus {
 
 .header .container {
   width: 100%;
-  height: 100%;
   min-height: 100vh;
-  padding: 100px 160px 20px;
+  padding: 100px 160px 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,16 +87,6 @@ button:focus {
 
 .menu-list__item a {
   color: #000;
-}
-
-.circle {
-  width: 6px;
-  height: 6px;
-  border-radius: 100%;
-  background: #6362d7;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0);
 }
 
 .menu-list__item a.selected {
@@ -638,13 +627,23 @@ select {
 
 @media (max-width: 1600px) {
   .header .container {
-    padding: 100px 40px 20px;
+    padding: 100px 40px 40px;
+  }
+
+  .header__title,
+  .header__sub-title {
+    font-size: 36px;
+  }
+
+  .form__title,
+  .form__sub-title {
+    font-size: 30px;
   }
 
   .about .container,
   .form .container,
   .contact .container {
-    padding: 20px 40px 20px;
+    padding: 20px 40px 40px;
   }
 
   .header__menu {
@@ -660,23 +659,23 @@ select {
   }
 
   .img-group {
-    height: 270px;
+    height: 210px;
   }
 
   .img-content img {
-    max-width: 600px;
+    max-width: 500px;
   }
 }
 
 @media (max-width: 1200px) {
   .header .container {
-    padding: 100px 20px 20px;
+    padding: 100px 20px 40px;
   }
 
   .about .container,
   .form .container,
   .contact .container {
-    padding: 70px 20px 20px;
+    padding: 0px 20px 40px;
   }
 
   .header__menu {
@@ -685,14 +684,6 @@ select {
 
   .menu-list {
     max-width: 450px;
-  }
-
-  .img-group {
-    height: 250px;
-  }
-
-  .img-content img {
-    max-width: 560px;
   }
 }
 
@@ -782,10 +773,6 @@ select {
     transform: rotate(-45deg) translate(8px, -9px);
   }
 
-  .header__title,
-  .header__sub-title {
-    font-size: 36px;
-  }
 
   .button--primary,
   .button--secondary {
@@ -832,11 +819,6 @@ select {
   .content-second .description-second {
     order: -1;
     padding: 0;
-  }
-
-  .form__title,
-  .form__sub-title {
-    font-size: 30px;
   }
 
   .content-form form {
