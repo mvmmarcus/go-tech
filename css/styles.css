@@ -320,7 +320,6 @@ button:focus {
 .form {
   width: 100%;
   max-width: 1920px;
-  min-height: 100vh;
   margin: 0 auto;
 }
 
@@ -643,7 +642,7 @@ select {
   .about .container,
   .form .container,
   .contact .container {
-    padding: 20px 40px 40px;
+    padding: 40px 40px 40px;
   }
 
   .header__menu {
@@ -672,18 +671,12 @@ select {
     padding: 100px 20px 40px;
   }
 
-  .about .container,
-  .form .container,
-  .contact .container {
-    padding: 0px 20px 40px;
-  }
-
   .header__menu {
     padding: 0 20px;
   }
 
   .menu-list {
-    max-width: 450px;
+    max-width: 430px;
   }
 }
 
