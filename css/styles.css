@@ -359,7 +359,7 @@ button:focus {
   margin-bottom: 30px;
 }
 
-.teste {
+.form__content {
   width: 60%;
   max-width: 770px;
   height: auto;
