@@ -541,6 +541,11 @@ select {
   align-items: flex-start;
 }
 
+.contact__item span:hover {
+  cursor: pointer;
+  color: #6362d7;
+}
+
 .contact__item strong {
   font-size: 15px;
   font-weight: 600;
